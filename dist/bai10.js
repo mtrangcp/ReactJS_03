@@ -9,7 +9,7 @@ function isUnique(word) {
     }
     return true;
 }
-function findLongestUniqueWord(sentence) {
+function findLongest(sentence) {
     const words = sentence.split(" ");
     let longestWord = "";
     for (let word of words) {
@@ -20,6 +20,6 @@ function findLongestUniqueWord(sentence) {
     return longestWord;
 }
 const sentence = "hello world apple banana orange pumpkin cucumber";
-const result = findLongestUniqueWord(sentence);
+const result = findLongest(sentence);
 console.log(result);
 //# sourceMappingURL=bai10.js.map

@@ -7,7 +7,7 @@ function isUnique(word: string): boolean {
   return true;
 }
 
-function findLongestUniqueWord(sentence: string): string {
+function findLongest(sentence: string): string {
   const words = sentence.split(" ");
   let longestWord = "";
 
@@ -21,6 +21,6 @@ function findLongestUniqueWord(sentence: string): string {
 }
 
 const sentence = "hello world apple banana orange pumpkin cucumber";
-const result = findLongestUniqueWord(sentence);
+const result = findLongest(sentence);
 console.log(result); 
 
