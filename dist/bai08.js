@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const checkNumber = (a, b) => {
     if (!isNaN(Number(a)) && !isNaN(Number(b)))
         return true;
@@ -25,5 +27,4 @@ if (checkNumber(a, b)) {
 else {
     console.log("Khong the ep kieu");
 }
-export {};
 //# sourceMappingURL=bai08.js.map

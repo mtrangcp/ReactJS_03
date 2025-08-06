@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let str = "hello world";
 let newStr = str.split("");
 newStr.forEach((el, index) => {
@@ -8,5 +10,4 @@ newStr.forEach((el, index) => {
 });
 str = newStr.join("");
 console.log("Result: ", str);
-export {};
 //# sourceMappingURL=bai07.js.map

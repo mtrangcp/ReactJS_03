@@ -1,3 +1,5 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 let firstName = "jonh";
 let lastName = "doe";
 let firstNames = firstName.split("");
@@ -12,5 +14,4 @@ if (lastNames[0] && lastNames[0] !== lastNames[0]?.toUpperCase()) {
 }
 let fullName = firstName + " " + lastName;
 console.log("FullName: ", fullName);
-export {};
 //# sourceMappingURL=bai05.js.map
